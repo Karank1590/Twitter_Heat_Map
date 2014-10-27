@@ -62,7 +62,7 @@ Steps to run code
 -----------------
 __Python Script (to collect tweets and insert into DynamoDB database)__:
 
-(1) Create DynamoDB instance with tablename having columns as "coordinates", "tweet_id", "text", "created_at", "followers_count" and put that table name in variable "table_name" in "twitter_stream.py".
+(1) Create DynamoDB instance with table having columns as "coordinates", "tweet_id", "text", "created_at", "followers_count" and put that table name in variable "table_name" in "twitter_stream.py".
 
 (2) Put AWS credentials in ".boto" file.
 
