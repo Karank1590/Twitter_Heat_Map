@@ -61,12 +61,13 @@ Steps to run code
 -----------------
 __Python Script__:
 
-(1) Create DynamoDB instance with tablename and put that table name in variable "table_name" in "twitter_stream.py".
+(1) Create DynamoDB instance with tablename having columns as "coordinates", "tweet_id", "text", "created_at", "followers_count" and put that table name in variable "table_name" in "twitter_stream.py".
 
 (2) Put AWS credentials in ".boto" file.
 
-(3) run "python twitter_stream.py".
+(3) Put the keyword to track from streaming Twitter API by specifying "track=" in url variable.
 
+(4) run "python twitter_stream.py".
 
 __Java Project__:
 
