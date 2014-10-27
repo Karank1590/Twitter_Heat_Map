@@ -79,6 +79,7 @@ __Java Project__:
 
 (4) Run index.jsp on server.
 
+The way we created this project is each keyword has its own table. "index.jsp" performs scan operation on DynamoDB database by passing table name as request and fetches the data which is plotted on Google Map.
 
 
 Bonus (Map Update in real time)
