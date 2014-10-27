@@ -1,5 +1,5 @@
-Web Application to Display Tweets on a Map
-==========================================
+Web Application to Display Heat Map of Tweets
+=============================================
 
 Authors
 -------
