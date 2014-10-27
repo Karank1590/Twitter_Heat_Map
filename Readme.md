@@ -35,6 +35,7 @@ Installation
 ------------
 The web application can be deployed on an AWS Elastic Beanstalk through the Eclipse IDE which contains the AWS SDK.
 While deploying the application, the server must be defined as AWS Elastic Beanstalk for Tomcat 6.
+Install python libraries below.
 
 Python Libraries
 ----------------
@@ -55,6 +56,26 @@ json== Default package comes with python
 ast== Default package comes with python
 
 re== Default package comes with python
+
+Steps to run code
+-----------------
+__Python Script__:
+
+(1) Put credentials in ".boto" file.
+
+(2) run "python twitter_stream.py".
+
+
+__Java Project__:
+
+(1) Import project in eclipse or other IDE.
+
+(2) Put in credentials in "AwsCredentials.properties".
+
+(3) Put Google Map API in "index.jsp".
+
+(4) Run index.jsp on server.
+
 
 
 Bonus (Map Update in real time)
