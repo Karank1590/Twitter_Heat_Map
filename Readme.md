@@ -60,6 +60,7 @@ re== Default package comes with python
 Steps to run code
 -----------------
 __Python Script__:
+
 (1) Create DynamoDB instance with tablename and put that table name in variable "table_name" in "twitter_stream.py".
 
 (2) Put AWS credentials in ".boto" file.
