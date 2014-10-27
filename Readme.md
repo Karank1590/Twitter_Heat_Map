@@ -60,17 +60,18 @@ re== Default package comes with python
 Steps to run code
 -----------------
 __Python Script__:
+(1) Create DynamoDB instance with tablename and put that table name in variable "table_name" in "twitter_stream.py".
 
-(1) Put credentials in ".boto" file.
+(2) Put AWS credentials in ".boto" file.
 
-(2) run "python twitter_stream.py".
+(3) run "python twitter_stream.py".
 
 
 __Java Project__:
 
 (1) Import project in eclipse or other IDE.
 
-(2) Put in credentials in "AwsCredentials.properties".
+(2) Put in AWS credentials in "AwsCredentials.properties".
 
 (3) Put Google Map API in "index.jsp".
 
