@@ -35,6 +35,7 @@ Installation
 ------------
 The web application can be deployed on an AWS Elastic Beanstalk through the Eclipse IDE which contains the AWS SDK.
 While deploying the application, the server must be defined as AWS Elastic Beanstalk for Tomcat 6.
+
 Install python libraries below.
 
 Python Libraries
