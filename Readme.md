@@ -80,7 +80,8 @@ __Java Project__:
 
 (4) Run index.jsp on server.
 
-The way we created this project is each keyword has its own table. "index.jsp" performs scan operation on DynamoDB database by passing table name as request and fetches the data which is plotted on Google Map.
+The way we created this project is each keyword has its own table. "index.jsp" performs scan operation on DynamoDB database by passing table name as request and fetches the data which is plotted on Google Map. To normalise the tweet , we are using nltk library's Porter Stemmer before inserting data into database. Also this project has real time map update feature as described below.
+
 
 
 Bonus (Map Update in real time)
