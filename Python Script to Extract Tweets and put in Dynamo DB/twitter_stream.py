@@ -1,5 +1,7 @@
 # Cloud Computing Assigment 1 - Tweet Collection & Dumping to Dynamo DB code
-# This code collects tweets with specific key words from Twitter streaming API and puts in Dynamo DB database; this code also creates a "table_name".txt file where each line is tweetid so one can use it to get records from Dynamo DB database if one dosent want to use scan option. 
+# This code collects tweets with specific key words from Twitter streaming API and puts in Dynamo DB database;
+# this code also creates a "table_name".txt file where each line is tweetid so one can use it to get records 
+# from Dynamo DB database if one dosent want to use scan option. 
 # Umang Patel = ujp2001, Karan Kaul - kak2210
 # Columbia University,CS Department
 
