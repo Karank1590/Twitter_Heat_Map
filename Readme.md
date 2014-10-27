@@ -80,7 +80,7 @@ __Java Project__:
 
 (4) Run index.jsp on server.
 
-The way we created this project is each keyword has its own table. "index.jsp" performs scan operation on DynamoDB database by passing table name as request and fetches the data which is plotted on Google Map. To normalise the tweet , we are using NLTK library's Porter Stemmer before inserting data into database. Also this project has real time map update feature as described below. The jsp page also shows the number of tweets plotted in text box below. One can see in the screencast video that the number of tweets collected changes with time as python script to collect tweet is running.
+The way we created this project is each keyword has its own table. "index.jsp" performs scan operation on DynamoDB database by passing table name as request and fetches the data which is plotted on Google Map. To normalise the tweet , we are using NLTK library's Porter Stemmer before inserting data into database. Only those tweets having "geo" hashtags coordinates are put in database. Also this project has real time map update feature as described below. The jsp page also shows the number of tweets plotted in text box below. One can see in the screencast video that the number of tweets collected changes with time as python script to collect tweet is running.
 
 This application is deployed using __Amazon AWS EBS(Amazon Elastic Beanstalk)__.
 
