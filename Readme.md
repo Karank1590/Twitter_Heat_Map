@@ -17,11 +17,6 @@ GitHub URL
 ----------
 https://github.com/17patelumang/CloudComputing_BigData_Assi1
 
-Application URL
----------------
-http://ujp2001assi1-cn5ymtyk24.elasticbeanstalk.com/
-
-
 Screencast URL
 --------------
 http://www.screencast.com/t/3kVuuR9z8VG
