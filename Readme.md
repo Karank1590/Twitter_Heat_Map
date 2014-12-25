@@ -1,4 +1,4 @@
-Web Application to Display Heat Map of Tweets
+﻿Web Application to Display Heat Map of Tweets
 =============================================
 
 Authors
@@ -85,6 +85,5 @@ Bonus (Map Update in real time)
 To collect tweets run python code and keep it on. The command to run python script is "python twitter_stream.py".
 
 The information displayed on the map changes over time as new tweets regarding a keyword are collected into the DynamoDB instance. These new tweets are sent to the client along with the rest of the tweets as the web page refreshes the page over a set interval. Currently the interval is set to 30 seconds.
-
 
 
