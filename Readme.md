@@ -15,7 +15,7 @@ Information about a different keyword can be displayed by selecting the keyword 
 
 GitHub URL
 ----------
-https://github.com/17patelumang/Twitter_Heap_map
+https://github.com/Karank1590/Twitter_Heat_Map
 
 Screencast URL
 --------------
